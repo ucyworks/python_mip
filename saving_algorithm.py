@@ -1,5 +1,5 @@
 """
-' --- Savings Algorithm for ATSP --- ' 
+' --- Saving Algorithm for ATSP --- ' 
 #distances
 1-1: 0
 1-2: 10
