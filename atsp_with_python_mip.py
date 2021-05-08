@@ -1,12 +1,14 @@
+""" 
+! ------------- ATSP: br17  ------------- !
+"""
+
 from itertools import product
 from sys import stdout as out
 from mip import Model, xsum, minimize, BINARY
 import random as rnd
 from typing import List
 
-""" 
-! ------------- ATSP: br17  ------------- 
-"""
+
 
 # names of places to visit
 places = ["1","2","3","4","5","6","7","8","9",
